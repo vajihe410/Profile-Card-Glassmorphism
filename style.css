@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 450px;
+    background-color:rgba(255, 255, 255, 0.06);
+    border-radius: 24px;
+    backdrop-filter: blur(20px);
+    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.09);
+    backdrop-filter: blur(20px);
+    margin: 20px auto 8px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+h1,h2{
+    color: rgb(22, 22, 22);
+    text-align: center;
+}
+h3{
+    color: rgb(95, 95, 95);
+    text-align: center;
+    margin-top: 4px;
+}
+button{
+    width: 300px;
+    height: 50px;
+    margin: 30px 47px 4px 53px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.09);
+    backdrop-filter: blur(20px);
+
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.09);
+    backdrop-filter: blur(20px);
+    margin-top: 145px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.activity,.rating{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.activity{
+    border-left: 2px rgb(197, 197, 197) solid;
+}
